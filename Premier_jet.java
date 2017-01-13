@@ -1,3 +1,5 @@
+//Fichier de base pour lire la bdd de mots en anglais, et la stocker dans un array
+
 import java.util.*;
 
 import java.io.BufferedReader;
