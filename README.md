@@ -13,7 +13,7 @@ A grammatical correcteur in Java, with AI.
      - list typical errors to auto-correct ?
      - take numbers and special characters into account -> change the "alphabet" string variable
      - upgrade the project to be able to correct a series of words by taking into account the links between those words
-     - use the java classes by creating objects, in order to use java as it should be used (not only one class one function, no attribut, no method)
+
      
   Function stuff to correct :
     - SearchingWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, modify it in order to have a static array as an output, to make treatments faster -> modify by way of consequence GetCost, Decision.
