@@ -1,5 +1,5 @@
 # grammatical_corrector
-A grammatical correcteur in Java
+A grammatical correcteur in Java, with AI.
 
     GENERAL STUFF TO DO :
      - adaptate the different functions to be able to process several languages, by going on object oriented programming
@@ -16,14 +16,14 @@ A grammatical correcteur in Java
      - use the java classes by creating objects, in order to use java as it should be used (not only one class one function, no attribut, no method)
      
   Function stuff to correct :
-    SearchingWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, modify it in order to have a static array as an output, to make treatments faster -> modify by way of consequence GetCost, Decision.
-    TakeDico : comment, describe the inputs and outputs of the function, and writte a serie of testing for those
-    CheckWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those
-    Decision : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, see also SearchingWord
-    enterWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those
-    GetCost : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, integrate it into PossibleRealWord, or make it so that it can treat farther corrected words, see also SearchingWord
-    mainScript : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, add another while loop, in order to generate farther corrected words (with PossibleRealWord), while there are none in the dictionnary 
-    PossibleRealWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, add the GetCost function in it, in order to take into account farther corrected words
+    - SearchingWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, modify it in order to have a static array as an output, to make treatments faster -> modify by way of consequence GetCost, Decision.
+    - TakeDico : comment, describe the inputs and outputs of the function, and writte a serie of testing for those
+    - CheckWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those
+    - Decision : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, see also SearchingWord
+    - enterWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those
+    - GetCost : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, integrate it into PossibleRealWord, or make it so that it can treat farther corrected words, see also SearchingWord
+    - mainScript : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, add another while loop, in order to generate farther corrected words (with PossibleRealWord), while there are none in the dictionnary 
+    - PossibleRealWord : comment, describe the inputs and outputs of the function, and writte a serie of testing for those, add the GetCost function in it, in order to take into account farther corrected words
 
 Project Structure :
 - Searching Word : from an array of possible corrections of the written word, determine wich are included in the dictionnary
